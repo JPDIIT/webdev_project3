@@ -197,6 +197,10 @@ iframe {
   margin: 30px auto;
 }
 
+.gm-style-iw, .gm-style-iw-c, .gm-style-iw-d {
+  background: rgba(0, 0, 200, 0.3) !important;
+}
+
 /* Tablet and low-res desktop/laptop */
 @media screen and (min-width: 640px) {
 

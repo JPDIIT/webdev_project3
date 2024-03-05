@@ -40,6 +40,16 @@ function initMap() {
 		icon: 'images/eclipse_icon.png'
 	});
 
+  var contentString = '<h3>Maximum Totality</h3><p>The total eclipse will last for a maximum of 4 minutes and 30 seconds near 26.77 N Latitude, 102.70 W Longitude</p>';
+
+  var infowindow = new google.maps.InfoWindow({
+    content: contentString
+  });
+
+  google.maps.event.addListener(marker, 'mouseover', function() {
+    infowindow.open(map, marker);
+  });
+
   eclipsePath.setMap(map);
 }
 
