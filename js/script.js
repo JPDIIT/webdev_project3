@@ -18,7 +18,7 @@ function genCoords(){
 /* Plot the path in red. */
 function initMap() {
 	var coordinates = genCoords();
-	var maxTotality = new google.maps.LatLng(26.765178902673206,-102.696509457010109);
+	var maxTotality = new google.maps.LatLng(26.77,-102.70);
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 3,
     center: { lat: 25, lng: -90 },
