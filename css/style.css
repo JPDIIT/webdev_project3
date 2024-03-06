@@ -219,7 +219,7 @@ iframe {
 }
 
 
-/* Tablet and low-res desktop/laptop */
+/* Low-res desktop/laptop or small browser window*/
 @media screen and (min-width: 640px) and (hover:hover) {
 
   header{
@@ -343,7 +343,7 @@ iframe {
   }
 }
 
-/* Desktops and Laptops*/
+/* Desktops and Laptops minimum modern available resolution or medium browser window */
 @media screen and (min-width: 800px) and (hover:hover) {
   body {
     background: radial-gradient(circle, transparent 65%, 70%, black), url("../images/star_chart.png");
