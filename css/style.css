@@ -258,6 +258,14 @@ iframe {
     height: inherit;
   }
   
+  #main-nav ul li {
+    float: left;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    height: 5em;
+  }
+  
   #main-nav ul li a {
     padding: 2.5em 4.5em;
     display: block;
