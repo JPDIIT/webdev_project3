@@ -197,7 +197,8 @@ iframe {
   margin: 30px auto;
 }
 
-.gm-style-iw, .gm-style-iw-c, .gm-style-iw-d {
+/* Google Maps info box for eclipse marker */
+.gm-style-iw, .gm-style-iw-c {
   background: rgba(0, 0, 200, 0.3) !important;
 }
 
