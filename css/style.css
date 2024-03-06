@@ -219,7 +219,7 @@ iframe {
 }
 
 .gm-style-iw-d {
-  overflow: none;
+  overflow: none !important;
 }
 
 
