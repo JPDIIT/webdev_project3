@@ -264,11 +264,11 @@ iframe {
     width: 100%;
     text-align: center;
     height: 5em;
+    font-size: 3em;
   }
   
   #main-nav ul li a {
     padding: 2.5em 4.5em;
-    font-size: 4em;
     display: block;
     text-decoration: none;
     color: #ccc;
