@@ -32,6 +32,20 @@ header h1 {
   padding: 1.5em;
 }
 
+header #menu {
+  position: absolute;
+  float: left;
+  width: 3em;
+  height: 3em;
+  top: 0.75em;
+  left: 1.25em;
+}
+
+header #menu img {
+  border: 0;
+  width: inherit;
+  height: inherit;
+}
 
 #main-nav {
   float: left;
@@ -41,6 +55,8 @@ header h1 {
   background-color: black;
   position: relative;
   z-index: 2;
+  visibility: collapse;
+  display: none;
 }
 
 #main-nav ul {
@@ -202,8 +218,9 @@ iframe {
   background: rgba(0, 0, 200, 0.3) !important;
 }
 
+
 /* Tablet and low-res desktop/laptop */
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 640px) and (hover:hover) {
 
   header{
     background: radial-gradient(ellipse 60% 12% at 50% 3em, transparent 40%, 50%, black), url("../images/milky_way1.png");  
@@ -227,6 +244,10 @@ iframe {
     margin-top: 1.5em;
     padding: 0;
   }
+  
+  header #menu {
+    visibility: hidden;
+  }
 
   #main-nav {
     float: left;
@@ -236,6 +257,8 @@ iframe {
     background-color: transparent;
     position: fixed;
     z-index: 2;
+    visibility: visible;
+    display: block;
   }
 
   #main-nav ul {
@@ -321,7 +344,7 @@ iframe {
 }
 
 /* Desktops and Laptops*/
-@media screen and (min-width: 800px){
+@media screen and (min-width: 800px) and (hover:hover) {
   body {
     background: radial-gradient(circle, transparent 65%, 70%, black), url("../images/star_chart.png");
     background-attachment: fixed;
@@ -352,6 +375,11 @@ iframe {
     margin-top: 1.5em;
     padding: 0;
   }
+  
+  header #menu {
+    display: none;
+    z-index: 5;
+  }
 
   #main-nav {
     float: left;
@@ -361,6 +389,7 @@ iframe {
     background-color: transparent;
     position: fixed;
     z-index: 2;
+    visibility: visible;
   }
 
   #main-nav ul {

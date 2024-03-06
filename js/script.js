@@ -53,5 +53,32 @@ function initMap() {
   eclipsePath.setMap(map);
 }
 
+function showmenu(){
+	const nav = document.getElementById("main-nav");
+	const isVisible = nav.checkVisibility();
+	console.log(isVisible);
+	if (isVisible) {
+		nav.style.display = "none";
+		nav.style.visibility = "collapse"
+		console.log("hide");
+		//isVisible = !(isVisible);
+	}
+	else {
+		nav.style.display = "block";
+		nav.style.visibility = "visible"
+		console.log("reveal");
+		//isVisible = !(isVisible);
+	}
+	
+}
+
+function init(){
+	const menu = document.getElementById("menu");
+	menu.addEventListener("click", (event) => showmenu());
+}
+
+window.onload = init;
+
+
 
 window.initMap = initMap;
