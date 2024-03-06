@@ -218,6 +218,11 @@ iframe {
   background: rgba(0, 0, 200, 0.3) !important;
 }
 
+.gm-style-iw-d {
+  overflow: none;
+}
+
+
 /* Higher resolution phones */
 @media screen and (min-width: 800px) and (hover:none) {
   header{
