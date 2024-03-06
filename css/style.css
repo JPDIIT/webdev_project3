@@ -218,6 +218,50 @@ iframe {
   background: rgba(0, 0, 200, 0.3) !important;
 }
 
+/* Higher resolution phones */
+@media screen and (min-width: 800px) and (hover:none) {
+  header{
+    background: radial-gradient(ellipse 60% 12% at 50% 3em, transparent 40%, 70%, black), url("../images/milky_way1.png");  
+    background-color: black;
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-position: center top;
+    position: relative;
+    width: 100%;
+    height: 6em;
+    top: 0em;
+    z-index: 1;
+    text-align: center;
+  }
+
+  header h1 {
+    font-family: "Bruno Ace", Arial;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+    margin-top: 0;
+    padding: 1.5em;
+  }
+
+  header #menu {
+    position: absolute;
+    float: left;
+    width: 5em;
+    height: 5em;
+    top: 2.75em;
+    left: 3.25em;
+  }
+
+  header #menu img {
+    border: 0;
+    width: inherit;
+    height: inherit;
+  }
+  
+  p {
+    font-size: 1.5em;
+  }
+}
 
 /* Low-res desktop/laptop or small browser window*/
 @media screen and (min-width: 640px) and (hover:hover) {
