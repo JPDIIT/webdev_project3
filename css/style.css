@@ -268,6 +268,7 @@ iframe {
   
   #main-nav ul li a {
     padding: 2.5em 4.5em;
+    font-size: 4em;
     display: block;
     text-decoration: none;
     color: #ccc;
