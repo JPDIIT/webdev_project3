@@ -246,7 +246,7 @@ iframe {
   }
   
   header #menu {
-    visibility: hidden;
+    display: none;
   }
 
   #main-nav {
@@ -378,7 +378,6 @@ iframe {
   
   header #menu {
     display: none;
-    z-index: 5;
   }
 
   #main-nav {
